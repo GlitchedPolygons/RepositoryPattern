@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>GlitchedPolygons.RepositoryPattern</AssemblyName>
+    <RootNamespace>GlitchedPolygons.RepositoryPattern</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Glitched Polygons</Authors>
+    <Description>Generic base interfaces needed for implementing a very basic repository pattern in your project.</Description>
+    <RepositoryUrl>https://github.com/GlitchedPolygons/RepositoryPattern</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/GlitchedPolygons/RepositoryPattern</PackageProjectUrl>
+    <PackageIconUrl>https://i.imgur.com/XOI88Eg.png</PackageIconUrl>
+    <PackageTags>c# repository design pattern base interface declaration db database access abstraction repositories</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\git\glitched-polygons\nuget\RepositoryPattern\RepositoryPattern\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\git\glitched-polygons\nuget\RepositoryPattern\RepositoryPattern\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
