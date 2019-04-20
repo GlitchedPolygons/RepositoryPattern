@@ -9,7 +9,7 @@
     <Description>Generic base interfaces needed for implementing a very basic repository pattern in your project.</Description>
     <RepositoryUrl>https://github.com/GlitchedPolygons/RepositoryPattern</RepositoryUrl>
     <PackageProjectUrl>https://github.com/GlitchedPolygons/RepositoryPattern</PackageProjectUrl>
-    <PackageIconUrl>https://i.imgur.com/XOI88Eg.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/GlitchedPolygons/RepositoryPattern/master/icon.png</PackageIconUrl>
     <PackageTags>c# repository design pattern base interface declaration db database access abstraction repositories</PackageTags>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
