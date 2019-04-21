@@ -1,3 +1,4 @@
+[![NuGet](https://img.shields.io/nuget/v/GlitchedPolygons.RepositoryPattern.svg)](https://www.nuget.org/packages/GlitchedPolygons.RepositoryPattern)
 # The Repository Pattern
 ---
 These are the generic base interfaces needed for implementing a very basic repository pattern inside your C# projects.
