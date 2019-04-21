@@ -77,6 +77,13 @@ namespace GlitchedPolygons.RepositoryPattern
         Task<bool> Remove(T1 entity);
 
         /// <summary>
+        /// Removes the specified entity.
+        /// </summary>
+        /// <param name="id">The unique id of the entity to remove.</param>
+        /// <returns>Whether the entity could be removed successfully or not.</returns>
+        Task<bool> Remove(T2 id);
+
+        /// <summary>
         /// Removes all entities at once from the repository.
         /// </summary>
         /// <returns>Whether the entities were removed successfully or not. If the repository was already empty, <c>false</c> is returned (because nothing was actually &lt;&lt;removed&gt;&gt; ).</returns>
@@ -95,5 +102,12 @@ namespace GlitchedPolygons.RepositoryPattern
         /// <param name="entities">The entities to remove.</param>
         /// <returns>Whether the entities were removed successfully or not.</returns>
         Task<bool> RemoveRange(IEnumerable<T1> entities);
+
+        /// <summary>
+        /// Removes the range of entities from the repository.
+        /// </summary>
+        /// <param name="ids">The unique ids of the entities to remove.</param>
+        /// <returns>Whether all entities were removed successfully or not.</returns>
+        Task<bool> RemoveRange(IEnumerable<T2> ids);
     }
 }
