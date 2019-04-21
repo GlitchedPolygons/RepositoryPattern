@@ -12,8 +12,8 @@
     <PackageIconUrl>https://raw.githubusercontent.com/GlitchedPolygons/RepositoryPattern/master/icon.png</PackageIconUrl>
     <PackageTags>c# repository design pattern base interface declaration db database access abstraction repositories</PackageTags>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Version>1.0.2</Version>
-    <PackageReleaseNotes>Added a useful PostgresRepository abstract base class.</PackageReleaseNotes>
+    <Version>1.0.4</Version>
+    <PackageReleaseNotes>OpenConnection() method in PostgreSQL abstract base repo class now protected instead of private.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -30,11 +30,6 @@
       <PackagePath></PackagePath>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Dapper" Version="1.60.6" />
-    <PackageReference Include="Npgsql" Version="4.0.6" />
   </ItemGroup>
 
 </Project>
