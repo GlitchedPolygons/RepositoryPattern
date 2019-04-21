@@ -32,7 +32,7 @@ namespace GlitchedPolygons.RepositoryPattern
             this.connectionString = connectionString;
         }
 
-        private IDbConnection OpenConnection()
+        protected IDbConnection OpenConnection()
         {
             var npgsqlConnection = new NpgsqlConnection(connectionString);
             npgsqlConnection.Open();
