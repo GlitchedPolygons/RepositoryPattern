@@ -13,5 +13,7 @@ The following are official (or officially tested) implementations:
 
 * PostgreSQL
 * * [github.com/GlitchedPolygons/RepositoryPattern.Postgres](https://github.com/GlitchedPolygons/RepositoryPattern.Postgres)
+* SQLite
+* * [github.com/GlitchedPolygons/RepositoryPattern.SQLite](https://github.com/GlitchedPolygons/RepositoryPattern.SQLite)
 * MongoDB
 * * [github.com/GlitchedPolygons/RepositoryPattern.MongoDB](https://github.com/GlitchedPolygons/RepositoryPattern.MongoDB)
