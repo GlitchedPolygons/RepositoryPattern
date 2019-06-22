@@ -4,4 +4,3 @@
 ---
 
 * Namespace:  _`GlitchedPolygons.RepositoryPattern.*`_
-* API Version:  _`1.0.4`_
