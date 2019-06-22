@@ -1,4 +1,5 @@
-[![NuGet](https://img.shields.io/nuget/v/GlitchedPolygons.RepositoryPattern.svg)](https://www.nuget.org/packages/GlitchedPolygons.RepositoryPattern)
+[![NuGet](https://img.shields.io/nuget/v/GlitchedPolygons.RepositoryPattern.svg)](https://www.nuget.org/packages/GlitchedPolygons.RepositoryPattern) [![API](https://img.shields.io/badge/api-docs-green.svg)](https://glitchedpolygons.github.io/RepositoryPattern/api/index.html)
+
 # The Repository Pattern
 ---
 These are the generic base interfaces needed for implementing a very basic repository pattern inside your C# projects.
@@ -17,3 +18,8 @@ The following are official (or officially tested) implementations:
 * * [github.com/GlitchedPolygons/RepositoryPattern.Postgres](https://github.com/GlitchedPolygons/RepositoryPattern.Postgres)
 * MongoDB
 * * [github.com/GlitchedPolygons/RepositoryPattern.MongoDB](https://github.com/GlitchedPolygons/RepositoryPattern.MongoDB)
+
+## Interface Documentation
+
+A top-level interface documentation can be found here:
+[glitchedpolygons.github.io/RepositoryPattern](https://glitchedpolygons.github.io/RepositoryPattern/api/index.html)
