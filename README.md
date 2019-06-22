@@ -1,4 +1,4 @@
-[![NuGet](https://img.shields.io/nuget/v/GlitchedPolygons.RepositoryPattern.svg)](https://www.nuget.org/packages/GlitchedPolygons.RepositoryPattern) [![API](https://img.shields.io/badge/api-docs-green.svg)](https://glitchedpolygons.github.io/RepositoryPattern/api/index.html)
+[![NuGet](https://img.shields.io/nuget/v/GlitchedPolygons.RepositoryPattern.svg)](https://www.nuget.org/packages/GlitchedPolygons.RepositoryPattern) [![API](https://img.shields.io/badge/api-docs-brightgreen.svg)](https://glitchedpolygons.github.io/RepositoryPattern/api/index.html)
 
 # The Repository Pattern
 ---
