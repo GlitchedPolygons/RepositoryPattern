@@ -16,12 +16,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "ReferencedXrefPropertyNotString"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/GlitchedPolygons.RepositoryPattern.IRepository-2.yml",
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.RepositoryPattern.IRepository-2.html",
-          "hash": "zb6eOVsrAyufvxEXxzYKMw=="
+          "hash": "4iXzIVsgbsagYU4CPWc5Ew=="
         }
       },
       "is_incremental": true,
@@ -96,7 +99,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "PSkEFXu8rVLLauzpExD7/Q=="
+          "hash": "/+ZUZZwbQGlW859g2WFrog=="
         }
       },
       "is_incremental": true,
