@@ -17,11 +17,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\git\glitched-polygons\nuget\RepositoryPattern\RepositoryPattern\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\git\glitched-polygons\nuget\RepositoryPattern\RepositoryPattern\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
