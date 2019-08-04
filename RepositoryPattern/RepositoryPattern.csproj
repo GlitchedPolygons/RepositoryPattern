@@ -17,11 +17,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\netstandard2.0\Debug\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\netstandard2.0\Release\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard2.0\GlitchedPolygons.RepositoryPattern.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
