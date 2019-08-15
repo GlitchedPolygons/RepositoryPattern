@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.RepositoryPattern.IEntity-1.html",
-          "hash": "qDZTzvjieyVmN2WURvUR8Q=="
+          "hash": "VY+CXWGNaHQVaCJR0Fouiw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,10 +24,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.RepositoryPattern.IRepository-2.html",
-          "hash": "4iXzIVsgbsagYU4CPWc5Ew=="
+          "hash": "V036eslYaR1Q3UCn9fsKvA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -39,7 +39,7 @@
           "hash": "wFNYnfeEbAomvxqWrnBFDQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -102,7 +102,7 @@
           "hash": "/+ZUZZwbQGlW859g2WFrog=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -138,13 +138,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 1
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 2
         }
       }
     },
