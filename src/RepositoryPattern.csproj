@@ -10,7 +10,6 @@
     <Description>Generic base interfaces needed for implementing a very basic repository pattern in your project.</Description>
     <RepositoryUrl>https://github.com/GlitchedPolygons/RepositoryPattern</RepositoryUrl>
     <PackageProjectUrl>https://github.com/GlitchedPolygons/RepositoryPattern</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/GlitchedPolygons/RepositoryPattern/4d8816f64c600fcfb30d1f93d4bd2354d7f6df40/icon.png</PackageIconUrl>
     <PackageTags>c# repository design pattern base interface declaration db database access abstraction repositories</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageVersion>1.0.6</PackageVersion>
@@ -32,5 +31,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+
+
+<PropertyGroup>
+  <PackageIcon>icon.png</PackageIcon>
+</PropertyGroup>
+
+<ItemGroup>
+  <None Include="icon.png" Pack="true" PackagePath="\"/>
+</ItemGroup>
 
 </Project>
